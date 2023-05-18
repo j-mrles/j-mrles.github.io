@@ -21,7 +21,7 @@
     <h1>About Me</h1>
     <img src="profile_picture.jpg" alt="Javier Morales">
     <p>
-      Welcome to my software engineering portfolio website. I am Javier Morales, a passionate software engineer with expertise in web development and application design. I love to solve complex problems and build innovative solutions.
+      Welcome to my softd,mv e;fv e;fkv fware engineering portfolio website. I am Javier Morales, a passionate software engineer with expertise in web development and application design. I love to solve complex problems and build innovative solutions.
     </p>
     <p>
       I have a strong foundation in languages such as HTML, CSS, JavaScript, and Python. Additionally, I have experience with frameworks like React and Django. I constantly strive to expand my skill set and stay updated with the latest technologies in the industry.
