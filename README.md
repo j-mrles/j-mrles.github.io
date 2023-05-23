@@ -54,8 +54,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> John Doe.</h1>
-    <p>Photographer and Web Designer.</p>
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Javier Morales.</h1>
+    <p>Aspiring Software Engineer.Current Computer Science Student.</p>
     <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
   </header>
 
@@ -63,20 +63,32 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>I've taken the leap and started working on creating my very own website portfolio!
+
+As a complete beginner in this field with only solid prior knowledge in Python, I must admit I'm both thrilled and slightly nervous about this new endeavor. But hey, isn't that what learning and growth are all about? Embracing new challenges and expanding our skill sets!
+
+I've chosen to embark on this journey during the summer, dedicating my time and energy to acquire the necessary knowledge and skills to build an impressive online portfolio. And where better to start than GitHub? 🌐
+
+Throughout this summer project, I plan to document my progress, share my insights, and celebrate my wins and struggles with you all. It's my way of not only holding myself accountable but also inspiring others who may be starting from scratch, just like me.
+
+I'm well aware that this journey won't be without its fair share of challenges. But I firmly believe that with determination, perseverance, and the support of this amazing professional network, I can overcome any obstacle that comes my way.
+
+To make this experience even more rewarding, I encourage you all to join me on this exciting adventure. Whether you're an experienced web developer or someone looking to learn alongside me, let's connect and collaborate! Share your insights, tips, and resources that have helped you on your own website portfolio journey. Together, we can achieve great things!
+
+I'm thrilled to embark on this new chapter of my professional growth, and I can't wait to see how my website portfolio evolves over time. Thank you for being a part of my network and supporting me along the way. Feel free to connect with me on Github as I am very new to this platform - https://github.com/j-mrles
+
+Stay tuned for updates and feel free to reach out if you have any suggestions or if you'd like to join forces. Let's make this summer a season of learning, growth, and website building!
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
+    <p class="w3-wide">Python and Java</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
-    <p class="w3-wide">Web Design</p>
+    <p class="w3-wide">HTMl and CSS</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
-    <p class="w3-wide">Photoshop</p>
+    <p class="w3-wide">C</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div><br>
@@ -185,9 +197,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Durham, NC</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 2054930261</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: fjm6709@uncw.edu</p>
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
 
