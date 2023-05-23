@@ -120,12 +120,12 @@ Stay tuned for updates and feel free to reach out if you have any suggestions or
     <!-- Testimonials -->
     <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
     <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
+    <p><span class="w3-large w3-margin-right">Tony Stark.</span> CEO of the Avengers.</p>
+    <p>Javier work for the avengers was immaculate.</p><br>
     
     <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
+    <p><span class="w3-large w3-margin-right">Peter Parker.</span> Intern at Stark Industries.</p>
+    <p>Javier did an awesome job as intern for the stark industries.</p>
   <!-- End About Section -->
   </div>
   
