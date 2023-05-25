@@ -12,7 +12,7 @@
 .heeder-large-screen{
     display: flex !important;
     justify-content: space-evenly !important;
-    color:blue;
+    color:AntiqueWhite;
     font-size: 18px !important;
 
 
@@ -23,7 +23,7 @@
 }
 #navDemo a{
     font-size: 13px !important;
-    color:blue;
+    color:AntiqueWhite;
 }
 
 .hero{
@@ -59,7 +59,7 @@
      font-weight: 800;
     text-transform: uppercase;
     font-size: 80px;
-    color:blue;
+    color:AntiqueWhite;
 
     text-align: center;
 
@@ -115,7 +115,7 @@ h3{
     align-items: center;
     border:1px solid gray;
     background: rgba(255, 75, 255, 0.1);
-    box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    box-shadow: 0 8px 40px 0 rgba(107, 110, 148, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
@@ -154,7 +154,7 @@ flex-wrap: wrap;
               box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 1px solid AntiqueWhite;
     color:white;
 
 }
@@ -183,7 +183,7 @@ h4{
 }
 .event-text{
     width:50%;
-    color: orange;
+    color: AntiqueWhite;
 
 }
 .event-title{
@@ -385,7 +385,7 @@ html {
     }
     .event-text{
         width:100%;
-        color: blueviolet;
+        color: AntiqueWhite;
 
     }
     .event-text p{
