@@ -1,62 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Web Portfolio</title>
-</head>
+<html>
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
 <body>
-  <header style="position: relative;">
 
-    <div class="w3-top" class="header" id="home">
-      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
-        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">Javier Morales</a>
-        <div >
-          <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >About</a>
-          <a href="#games" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black"> Projects</a>
-          <a href="#shop" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Involvement</a>
-          <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">References</a>
-          <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"> Javier Morales</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
         </div>
-    
-      </div>
-
-      <!-- Navbar on small screens -->
-      <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
-        <a href="#games" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Projects</a>
-        <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Involvement</a>
-        <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">References</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
-      </div>
     </div>
-  </header>
-      <section >
-         <div class="hero" id="about">
-           <div class="hero-description">
-             <div class="hero-text">
-              <h1 class="hero-title">Welcome to my portfolio</h1>
-              <p>
-                I'm thrilled to embark on this new chapter of my professional growth, and I can't wait to see how my website portfolio evolves over time. Thank you for being a part of my network and supporting me along the way. Feel free to connect with me on Github as I am very new to this platform - https://github.com/j-mrles
 
-              </p>
-              <span class="w3-text-white social" style="margin-top:050px">
-                <p >Follow me on Social media - @j.mrles or search "Javier Morales"</p>
-                <div class="w3-margin-top">
-             <a href="https://www.facebook.com/people/Javier-Morales/pfbid0o1VaxfPE6jEawd3VRPXaSHWGeE9U7T2TBXenQ5MDSfmV4cFWnUzq9LAYWXY7F3Fel/"><i class="fa fa-facebook-official w3-hover-opacity icons" ></i></a> 
-             <a href="https://www.instagram.com/j.mrles/"><i class="fa fa-instagram w3-hover-opacity icons" ></i></a> 
-             <a href="https://t.snapchat.com/J7sKj5M4"><i class="fa fa-snapchat w3-hover-opacity icons"></i></a>   
-             <a href="https://twitter.com/j_mrlesss"><i class="fa fa-twitter w3-hover-opacity icons"></i></a>  
-             <a href="https://www.linkedin.com/in/jmrles"><i class="fa fa-linkedin w3-hover-opacity icons"></i></a>  
-             </div>
-              </span>
-             </div>
-           </div>
-         </div>
-      
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="https://www.w3schools.com/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Web Portfolio</b></span> <span
+                   
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Car</div>
+                    <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?cs=srgb&dl=pexels-yurii-hlei-1545743.jpg&fm=jpg" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Spider-Man</div>
+                    <img src="https://i.pinimg.com/originals/61/aa/7f/61aa7f205535f6fc05cd1be74cc60051.jpg" alt="House" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Spider-Man</div>
+                    <img src="https://wallpapers.com/images/featured/hn7ew1a679keouky.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Challenger</div>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/dwburnett-demon-garlits-1352-1517591562.jpg?crop=0.3333333333333333xw:1xh;center,top&resize=640:*" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Tesla</div>
+                    <img src="https://content-images.carmax.com/qeontfmijmzv/MY19MKj0XutK084z874jt/9632621fd8464b5c0e54a9dee64ad4e5/tesla.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Sunset</div>
+                    <img src="https://www.shutterstock.com/image-photo/beautiful-sunset-tropical-beach-palm-260nw-1716193708.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>I am a highly motivated and accomplished undergraduate AI researcher with 
+              a B.S. in Computer Science (Software Engineering Concentration) and a Cybersecurity 
+              Minor. I am currently looking for software engineering internships in the field of 
+              artificial intelligence. I am an LSAMP Scholar, which is a prestigious program that 
+              supports underrepresented students in STEM fields.
+            </p>
+        </div>
+
+        
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+
+        <!-- Image of location/map -->
+        <div class="w3-container">
+            <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image" style="width:100%">
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-black w3-padding-16">
+    <!-- Footer end. -->
+    </footer>
+
+</body>
+
+</html>
