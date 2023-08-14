@@ -1,4 +1,11 @@
-
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
 .fa:hover {
     opacity: 0.9;
 }
@@ -139,3 +146,14 @@ color: white;
 
 }
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.9;
+}
