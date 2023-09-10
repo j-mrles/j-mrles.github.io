@@ -1,27 +1,131 @@
-.row {
-    display: flex;
+/* Reset some default styles for the entire page */
+body {
+    margin: 0;             /* Remove default margin */
+    padding: 0;            /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font family */
+    background-color: #f0f0f0; /* Set a background color for the entire page */
+    color: #333;           /* Set a default text color */
+}
+.fixed-bg {
+    background-image: url("https://media.licdn.com/dms/image/C4E12AQG5SfPaiyoXFw/article-cover_image-shrink_720_1280/0/1627971085946?e=2147483647&v=beta&t=fo7IjYqb8rv5utamgc0Exvp4JK_F0f8JyHyRGcbJ7ZU");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
-  .column {
-    flex: 50%;
-  }
-  
-.fa:hover {
-    opacity: 0.9;
+/* Define styles for links */
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #0078d4;        /* Set link color */
 }
 
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 50px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
+
+/* Define a container for your content */
+.container {
+    max-width: 1100px; /* Set a maximum width for the content */
+    margin: 0 auto;    /* Center the container horizontally */
+    padding: 10px;     /* Add some spacing around the content */
+}
+
+/* Define a header style */
+.header {
+    background-color: #333; /* Set a background color for the header */
+    color: #fff;            /* Set text color for the header */
+    padding: 10px 0;        /* Add padding to the header */
+}
+
+/* Define a footer style */
+.footer {
+    background-color: #333; /* Set a background color for the footer */
+    color: #fff;            /* Set text color for the footer */
+    padding: 10px 0;        /* Add padding to the footer */
+}
+
+/* Add responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+    /* Define styles for smaller screens */
+    body {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+    
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    
+    /* Add more responsive styles as needed */
+}
+
+
+
+/*projects*/
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+
+
+    margin: 20px;
+    width: 300px;
+       background: radial-gradient(
+          140% 140% at 0% 0%,
+          rgba(255, 255, 255, 0.5) 0%,
+          rgba(255, 255, 255, 0) 75%
+        );
+        border-radius: 35px;
+        box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+        backdrop-filter: blur(30px);
+
+}
+
+
+.card img{
+
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.card-info{
+    padding:0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.card-info h6{
+    margin: 3px 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.card-info span{
+
+    color: #4169E1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+
+/*icons and footer*/
 
 .fa:hover {
     opacity: 0.7;
 }
+
 
 .fa-facebook {
     padding: 10px;
@@ -55,111 +159,3 @@ color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
-footer {
-text-align: center;
-padding: 3px;
-background-color: DarkSalmon;
-color: white;
-}
-
-/*Stylesheet for the Meet Our Team Tab*/
-/*Credit for background animation: @designtorch2020 codepen*/
-/*Credit for glass-morphism card: @designtorch2020 codepen*/
-
-
-
-
-
-.card-container{
-    /*padding: 20px;*/
-    /*min-height: 50vh;*/
-    /*background-color: #0E315C;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card{
-    /*border-radius: 10px; !* Adjust the value to control the level of smoothness *!*/
-
-    margin: 20px;
-
-    /*you can add a border here using padding*/
-    /*padding: 5px;*/
-
-    width: 300px;
-    /*background-color: rgb(0,0,0,0.5);*/
-    /*box-shadow: 0 5px 20px rgba(0,0,0,0.05);*/
-       background: radial-gradient(
-          140% 140% at 0% 0%,
-          rgba(255, 255, 255, 0.5) 0%,
-          rgba(255, 255, 255, 0) 75%
-        );
-        /*border-top: 1px solid #eeeded70;*/
-        /*border-left: 1px solid #eeeded70;*/
-        border-radius: 35px;
-        box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
-        backdrop-filter: blur(30px);
-
-}
-
-
-.card img{
-    /*make the img smaller to fit card*/
-    /*margin: 10px 0 0 0;*/
-    border-radius: 30px; /* Adjust the value to control the level of smoothness */
-
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-
-.card-info{
-    padding:0;
-    margin: 0;
-    text-align: center;
-
-}
-
-.card-info h6{
-    margin: 3px 0 0 0;
-    /*margin-bottom: 3px;*/
-    font-size: 16px;
-    font-weight: 700;
-    /*Raleway*/
-    font-family: sans-serif;
-    /*can take off*/
-    text-transform: capitalize;
-}
-
-.card-info span{
-
-    /*margin-bottom: 5px;*/
-    color: #4169E1;
-    font-size: 13px;
-    font-weight: 400;
-    /*Poppins*/
-    font-family: sans-serif;
-
-}
-
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-  }
-  
-.fa:hover {
-    opacity: 0.9;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
