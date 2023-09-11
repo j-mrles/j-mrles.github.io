@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif; /* Set a default font family */
     background-color: #f0f0f0; /* Set a background color for the entire page */
     color: #333;           /* Set a default text color */
+
 }
 
 .fixed-bg {
@@ -46,7 +47,7 @@ a:hover {
 @media screen and (max-width: 768px) {
     /* Define styles for smaller screens */
     body {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
     }
     
     .container {
@@ -70,14 +71,15 @@ a:hover {
   .whoami img.Javier {
     width: 300px; /* Set the desired width */
     height: auto; /* Allow the height to adjust to maintain the aspect ratio */
-    margin-left: 4%;
+    margin-left: 20%;
     margin-top: 1%;
     margin-bottom:5%;
   }
   
 .whoami {
-    font-size: 13px; /* Set the desired font size for the text */
+    font-size: 15px; /* Set the desired font size for the text */
     margin-top: 25pt;
+    margin-right:16%
 }
   
 
