@@ -59,13 +59,13 @@ a:hover {
 
 
 /*Who am I*/
-.container {
-    width: 100%; /* Ensure the container takes the full width */
-  }
+
   
   img {
     float: left; /* Float the image to the left */
     margin-right: 30px; /* Add some margin to create spacing */
+    
+
   }
   
   .whoami img.Javier {
@@ -73,17 +73,29 @@ a:hover {
     height: auto; /* Allow the height to adjust to maintain the aspect ratio */
     margin-left: 20%;
     margin-top: 1%;
-    margin-bottom:5%;
+    margin-right: 25px; /* Add some margin to create spacing */
+    margin-bottom: 54px;
+
+
+    
   }
   
 .whoami {
     font-size: 15px; /* Set the desired font size for the text */
-    margin-top: 25pt;
-    margin-right:16%
+    margin-top: 4%;
+    margin-right:20%;
+    
+    
 }
   
 
 /*projects*/
+.projects {
+    width: 100%; /* Ensure the container takes the full width */
+    margin-left: 2%;
+    margin-top: 15%;
+ 
+  }
 
 .card-container{
     display: flex;
