@@ -106,7 +106,6 @@ a:hover {
 
 .card{
 
-
     margin: 20px;
     width: 300px;
        background: radial-gradient(
@@ -130,26 +129,10 @@ a:hover {
 }
 
 .card-info{
-    padding:0;
+    padding:50px;;
     margin: 0;
     text-align: center;
 
-}
-
-.card-info h6{
-    margin: 3px 0 0 0;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: sans-serif;
-    text-transform: capitalize;
-}
-
-.card-info span{
-
-    color: #4169E1;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: sans-serif;
 
 }
 
