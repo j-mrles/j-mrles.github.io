@@ -1,52 +1,42 @@
 /* Reset some default styles for the entire page */
 body {
-    margin: 0;             /* Remove default margin */
-    padding: 0;            /* Remove default padding */
-    font-family: Arial, sans-serif; /* Set a default font family */
-    background-color: #f0f0f0; /* Set a background color for the entire page */
-    color: #333;           /* Set a default text color */
-
-
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Fixed Background */
 .fixed-bg {
     background-image: url("https://media.licdn.com/dms/image/C4E12AQG5SfPaiyoXFw/article-cover_image-shrink_720_1280/0/1627971085946?e=2147483647&v=beta&t=fo7IjYqb8rv5utamgc0Exvp4JK_F0f8JyHyRGcbJ7ZU");
     min-height: 500px;
-     position: relative;
+    position: relative;
     background-position: center;
     display: flex;
     background-size: cover;
-  }
+}
+
+/* Link Hover Style */
 a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
 }
 
-
-/* Define a header style */
-.header {
-    background-color: #333; /* Set a background color for the header */
-    color: #fff;            /* Set text color for the header */
-    padding: 10px 0;        /* Add padding to the header */
-}
-
-/* Define a footer style */
-.footer {
-    background-color: #333; /* Set a background color for the footer */
-    color: #fff;            /* Set text color for the footer */
-    padding: 10px 0;        /* Add padding to the footer */
-}
-
-
-/*Who am I*/
-
-  
-  img {
-    float: left; /* Float the image to the left */
-    margin-right: 30px; /* Add some margin to create spacing */
-
-  }
-  
-/* Style the "Who am I?" section */
+/* Who am I Section Styles */
 .whoami {
     display: flex;
     align-items: center;
@@ -57,6 +47,7 @@ a:hover {
     padding-right: 10%;
 }
 
+/* Profile Image Styles */
 .profile-image {
     width: 200px;
     height: 200px;
@@ -64,96 +55,70 @@ a:hover {
     margin-right: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-.info {
-    flex: 1;
-    text-align: left;
+/*mMore About Me*/
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
-.info h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    color: #333;
+.image-info-container {
+    display: flex;
+    align-items: center;
 }
 
-.info p.description {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #555;
-}
-
-.profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-    object-fit: cover;
-    margin-right: 20px;
+.moreme-image {
+    max-width: 90%;
+    height: auto;
+    padding-left: 30px;
 }
 
 .info {
     flex: 1;
-    padding-left: 100px;
-    padding-right: 40px;
-    padding-top: 30px;
+    padding: 20px;
 }
 
-h2 {
-    font-size: 24px;
-    margin: 0;
-}
-
-.description {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Add some animation to the profile image on hover */
+/* Profile Image Hover Animation */
 .profile-image:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
-.Javier{
-    border-radius: 10% !important;
-    margin-top: 100%;
-
-}
-  
-
-/*projects*/
+/* Projects Section Styles */
 .projects {
-    width: 100%; /* Ensure the container takes the full width */
+    width: 100%;
     margin-left: 2%;
     margin-top: 15%;
- 
-  }
+}
 
-.card-container{
+/* Card Container Styles */
+.card-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-
-
-
-.card img{
-
+/* Card Image Styles */
+.card img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
 }
 
-.card-info{
-    padding:50px;;
+/* Card Info Styles */
+.card-info {
+    padding: 50px;
     margin: 0;
     text-align: center;
-
-
 }
+/*Contact Section*/
+#contact{
+    padding-left: 40px;
+}
+
 /* Strengths Section Styles */
 .strengths {
     background-color: #f7f7f7;
@@ -202,6 +167,7 @@ h2 {
     color: #555;
     line-height: 1.4;
 }
+
 /* References Section Styles */
 .references {
     background-color: #f7f7f7;
@@ -241,59 +207,54 @@ h2 {
     color: #333;
     margin-top: 10px;
 }
+
+/* Image Container Styles */
 .image-container {
     display: flex;
     justify-content: space-between;
+}
 
-  }
-  
-  .image-container img {
+.image-container img {
     width: 30%;
     height: 20%;
     object-fit: cover;
     border-radius: 10%;
     border-color: #333;
+}
 
 
-  }
-
-
-/*icons and footer*/
-
+/* Social Media Icons and Footer Styles */
 .fa:hover {
     opacity: 0.7;
 }
 
-
 .fa-facebook {
     padding: 10px;
-background: #3B5998;
-color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
     padding: 10px;
-background: #55ACEE;
-color: white;
+    background: #55ACEE;
+    color: white;
 }
-
 
 .fa-linkedin {
     padding: 10px;
-background: #007bb5;
-color: white;
+    background: #007bb5;
+    color: white;
 }
 
 .fa-instagram {
     padding: 10px;
-background: #125688;
-color: white;
+    background: #125688;
+    color: white;
 }
 
 .fa-snapchat-ghost {
     padding: 10px;
-background: #fffc00;
-color: white;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
