@@ -61,12 +61,17 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 .image-info-container {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr  1fr ;
+    /* align-items: center; */
 }
+
+
+
 
 .moreme-image {
     max-width: 90%;
@@ -200,6 +205,8 @@ a:hover {
 .reference p {
     font-size: 18px;
     color: #555;
+
+
 }
 
 .reference blockquote {
@@ -258,3 +265,35 @@ a:hover {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+
+
+/* This is outside of the media query and applies to all screen sizes */
+/* You can define styles for the bio section here */
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 1270px) {
+    /* Apply styles for screens with a width of 768 pixels or less */
+    .image-info-container {
+ 
+
+
+
+
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 1fr 4fr; */
+        /* align-items: center; */
+    }
+    .moreme-image{
+        /* width: 0%; */
+        /* border: solid blue; */
+        padding: 0;
+        margin: 0 0 0 14%;
+        max-width: 72%;
+        /* transform: translate(16%,0); */
+        
+    }
+}
+
+
+
