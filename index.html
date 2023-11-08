@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Web Portfolio</title>
-        <meta charset="UTF-8">
-            <!-- css link -->
-        <link rel="stylesheet" href="styles.css">
-            <!-- template style -->
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-            <!-- social media icons-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <title>Web Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Template style -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
     <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
-                <!-- Navbar (sit on top) -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width: 100%;" id="home">
+        <!-- Navbar (sit on top) -->
         <div class="w3-top">
             <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="../index.html" class="w3-bar-item w3-button"> Javier Morales</a>
-                
+                <a href="../index.html" class="w3-bar-item w3-button">Javier Morales</a>
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right w3-hide-small">
                     <a href="pages/projects.html" class="w3-bar-item w3-button">Projects</a>
@@ -26,128 +25,159 @@
                 </div>
             </div>
         </div>
-        <div class="fixed-bg">
-
-        </div>
-        <div class="w3-display-left w3-text-white" style="padding:48px">
+        <div class="fixed-bg"></div>
+        <div class="w3-display-left w3-text-white" style="padding: 48px">
             <h1>Hello! I'm Javier Morales</h1>
             <h3>Learning. Inspiring. Empowering.</h3>
-            <p><a href="#about" Computer Science Student at The University Of North Carolina at Wilmington</a></p>      
+            <p><a href="#about">Computer Science Student at The University Of North Carolina at Wilmington</a></p>
         </div>
     </header>
-
-
+    <div class="main_me">
+        <img src="../j-mrles.github.io/images/Screenshot 2023-09-27 at 9.03.27 AM.jpg" alt="ME">
+        <img src="../j-mrles.github.io/images/Screenshot 2023-09-27 at 9.03.27 AM.jpg" alt="Second Image">
+        <img src="../j-mrles.github.io/images/IMG_2642.jpeg" alt="Third Image">
+    </div>
     
-    <body>
-
     <!-- Page content -->
-    <!-- Who am I? -->   
+    <!-- Who am I? -->
     <div class="whoami">
-        <img class="profile-image" src="images/proJavier.png" alt="Javier Morales">
+        
         <div class="info">
-            <h2>Hello! I'm Javier Morales</h2>
+            <h2>Who am I?</h2>
             <p class="description">
                 An aspiring full-stack Software Developer based in Durham, NC, currently attending the University of North Carolina at Wilmington as a Computer Science major (Software Engineering Concentration) and Cybersecurity Minor. I'm also working as a Software Development Project Assistant and an LLM Undergraduate Researcher.
             </p>
         </div>
     </div>
+    <section class="strengths">
+        <h2>My 5 Biggest Strengths</h2>
+        <ul>
+            <li>
+                <h3>1. Problem Solving</h3>
+                <p>I have a strong ability to analyze complex problems and find effective solutions.</p>
+            </li>
+            <li>
+                <h3>2. Communication</h3>
+                <p>I excel in both written and verbal communication, making me a great team player and presenter.</p>
+            </li>
+            <li>
+                <h3>3. Coding Skills</h3>
+                <p>I am proficient in multiple programming languages, including Java, Python, and C++.</p>
+            </li>
+            <li>
+                <h3>4. Leadership</h3>
+                <p>I have experience in leading teams and projects, demonstrating strong leadership skills.</p>
+            </li>
+            <li>
+                <h3>5. Adaptability</h3>
+                <p>I quickly adapt to new technologies and learn new skills as needed for the task at hand.</p>
+            </li>
+        </ul>
+    </section>
+    <div class = "bio">
+        <img class="profile-image" src="images/proJavier.png" alt="Javier Morales">
+        <div class="info">
+            <h2>More about me!</h2>
+            <p>Javier Morales is a dedicated, service-oriented individual who thrives on giving his all to his community and personal development. His career goal in full-stack development, with a major in computer science (software engineering concentration) and a cybersecurity minor, reflects his commitment to making a lasting impact through technology. With innate leadership qualities and a passion for growth, Javier is a standout figure in any endeavor he undertakes. In addition to his full-stack development aspirations, he is a co-founder of "Futuros en STEM" and co-president of the Hispanic Latinx Student Union, actively advancing diversity and inclusion in STEM fields. As a recipient of the LSAMP scholarship and an Undergraduate Large Language Model and Natural Language Researcher, he is driving innovation at the intersection of language and technology. Hailing from Durham, North Carolina, Javier's multifaceted contributions underscore his commitment to excellence, leadership, and pushing the boundaries of knowledge.</p>
+    </div>
     
-        <!-- Project Section -->
-<div class="projects">
-    <h2>My Projects</h2>
-    <h4>Click on the project to learn more!</h4>
 
-    <div class="project-row">
-        <div class="card-container">
-            <img src="images/research.png" alt="Project Image">
-            <div class="card-info">
-                <h6><strong>Research: Investigation Of Large Language Models For Teaching Software Programming To Non-Programmers</strong></h6>
-                <span><a href="#">More details here.</a></span>
-                <div class="social-icon">
-                    <p>
-                        I investigated the efficacy of various large language models for teaching programming to non-programmers, developed large language training and tutorials for teaching software programming to non-programmers, and identified the strengths and weaknesses of large language models as a teaching tool and how they can be used to improve traditional teaching methods.
-                    </p>
+    <!-- Project Section -->
+    <div class="projects">
+        <h2>My Projects</h2>
+        <h4>Click on the project to learn more!</h4>
+
+        <div class="project-row">
+            <div class="card-container">
+                <img src="images/research.png" alt="Project Image">
+                <div class="card-info">
+                    <h6><strong>Research: Investigation Of Large Language Models For Teaching Software Programming To Non-Programmers</strong></h6>
+                    <span><a href="#">More details here.</a></span>
+                    <div class="social-icon">
+                        <p>
+                            I investigated the efficacy of various large language models for teaching programming to non-programmers, developed large language training and tutorials for teaching software programming to non-programmers, and identified the strengths and weaknesses of large language models as a teaching tool and how they can be used to improve traditional teaching methods.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-row">
+            <div class="card-container">
+                <img src="images/fes.png" alt="Project Image">
+                <div class="card-info">
+                    <h6><strong>Futuros En STEM</strong></h6>
+                    <span><a href="https://www.futurosenstem.com">www.futurosenstem.com</a></span>
+                    <div class "social-icon">
+                        <p>
+                            I founded Futuros en STEM because I believe that everyone deserves access to a quality STEM education, regardless of their background or circumstances. I saw firsthand the inequality in STEM education when I was a student, and I knew that I wanted to do something to change that.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-row">
+            <div class="card-container">
+                <img src="images/resume.png" alt="Project Image">
+                <div class="card-info">
+                    <h6><strong>Resume</strong></h6>
+                    <span><a href="/Users/j.mrles/Desktop/j-mrles.github.io/request.pdf" target="_self">Click to view.</a></span>
+                    <div class="social-icon">
+                        <p>I am a passionate computer science student at the University of North Carolina Wilmington with a deep understanding of software engineering, cybersecurity principles, and Artificial Intelligence. I have a proven ability to learn new technologies quickly and apply them to solve complex problems. I am experienced in a variety of programming languages, including Java, Python, and C++. I have strong analytical and problem-solving skills, and I am an excellent written and verbal communicator.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="project-row">
-        <div class="card-container">
-            <img src="images/fes.png" alt="Project Image">
-            <div class="card-info">
-                <h6><strong>Futuros En STEM</strong></h6>
-                <span><a href="https://www.futurosenstem.com">www.futurosenstem.com</a></span>
-                <div class="social-icon">
-                    <p>
-                        I founded Futuros en STEM because I believe that everyone deserves access to a quality STEM education, regardless of their background or circumstances. I saw firsthand the inequality in STEM education when I was a student, and I knew that I wanted to do something to change that.
-                    </p>
-                </div>
+        <!-- References Section -->
+        <section class="references">
+            <h2>References</h2>
+   
+            <div class="reference">
+                <h3>Sergio Madera-Garcia</h3>
+                <p><em>managed Javier directly at Centro Hispano</em></p>
+                <blockquote>
+                    "Javier is a young professional who is knowledgeable in the tech field, and a progressive leader that is not afraid to find comfort within the uncomfortable."
+                </blockquote>
             </div>
-        </div>
-    </div>
-
-    <div class="project-row">
-        <div class="card-container">
-            <img src="images/resume.png" alt="Project Image">
-            <div class="card-info">
-                <h6><strong>Resume</strong></h6>
-                <span><a href="/Users/j.mrles/Desktop/j-mrles.github.io/request.pdf" target="_self">Click to view.</a></span>
-                <div class="social-icon">
-                    <p>I am a passionate computer science student at the University of North Carolina Wilmington with a deep understanding of software engineering, cybersecurity principles, and Artificial Intelligence. I have a proven ability to learn new technologies quickly and apply them to solve complex problems. I am experienced in a variety of programming languages, including Java, Python, and C++. I have strong analytical and problem-solving skills, and I am an excellent written and verbal communicator.</p>
-                </div>
+            <div class="reference">
+                <h3>David Boyd</h3>
+                <p><em>worked with Javier at Libery Healthcare</em></p>
+                <blockquote>
+                    "Javier is a driven individual, he is determined to find a resolution to any issue that comes his way."
+                </blockquote>
             </div>
-        </div>
-    </div>
-</div>
-
-     
-
-
-            <!-- Contact Section -->
-            <div class="w3-container w3-padding-32" id="contact">
-                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Information</h3>
-                <p>Got any questions? Feel free to reach out!</p>
-                
-                
+            
+        </section>
     
-                    
 
-                <form action="/action_page.php" target="_blank">
-                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                    <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-                    <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-                    <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-                    <button class="w3-button w3-black w3-section" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </form>
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-32" id="contact">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Information</h3>
+        <p>Got any questions? Feel free to reach out!</p>
+        <form action="/action_page.php" target="_blank">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+            <button class="w3-button w3-black w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+        </form>
+    </div>
 
-            </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+  
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com/profile.php?id=100012454245393" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/j_mrlesss" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/jmrles" class="fa fa-linkedin"></a>
+        <a href="https://instagram.com/j.mrles?igshid=MmIzYWVlNDQ5Yg==" class="fa fa-instagram"></a>
+        <a href="https://www.snapchat.com/add/j.mrles" class="fa fa-snapchat-ghost"></a>
+        <br>
 
-
-
-            <!-- End page content -->
-        </div>
-
-
-        <!-- Footer. -->
-        <footer class="w3-center w3-black w3-padding-16">
-           <p>Follow me on my socials!<br> </p> 
-
-                    <!-- Add font awesome icons -->
-                    <a href="https://www.facebook.com/profile.php?id=100012454245393" class="fa fa-facebook"></a>
-                    <a href="https://www.twitter.com/j_mrlesss" class="fa fa-twitter"></a>
-                    <a href="https://www.linkedin.com/in/jmrles" class="fa fa-linkedin"></a>
-                    <a href="https://instagram.com/j.mrles?igshid=MmIzYWVlNDQ5Yg==" class="fa fa-instagram"></a>
-                    <a href="https://www.snapchat.com/add/j.mrles" class="fa fa-snapchat-ghost"></a>
-
-
-            <p>Javier Morales<br>
-            <a href="fjm6709@uncw.edu">fjm6709@uncw.edu</a></p>
-        </footer>
-
-    </body>
-
+    </footer>
+</body>
 </html>
-

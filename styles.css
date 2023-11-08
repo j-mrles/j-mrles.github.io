@@ -45,12 +45,41 @@ a:hover {
 
   }
   
-  .whoami {
+/* Style the "Who am I?" section */
+.whoami {
     display: flex;
     align-items: center;
-    background-color: white;
-    color: black;
+    justify-content: center;
+    background-color: #f5f5f5;
     padding: 40px;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info p.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
 }
 
 .profile-image {
@@ -86,9 +115,7 @@ h2 {
     margin-top: 100%;
 
 }
-.whoami {
-    padding-left: 20px;
-}
+
   
 
 /*projects*/
@@ -123,6 +150,104 @@ h2 {
     text-align: center;
 
 
+}
+/* Strengths Section Styles */
+.strengths {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.strengths h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.strengths ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.strengths li {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.strengths li:hover {
+    transform: scale(1.05);
+}
+
+.strengths h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.strengths p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.4;
+}
+/* References Section Styles */
+.references {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.references h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reference {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.reference h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.reference p {
+    font-size: 18px;
+    color: #555;
+}
+
+.reference blockquote {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+.main_me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_me img {
+    max-width: 30%; /* Adjust the width as needed */
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
