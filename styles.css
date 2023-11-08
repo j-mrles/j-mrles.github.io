@@ -6,6 +6,7 @@ body {
     background-color: #f0f0f0; /* Set a background color for the entire page */
     color: #333;           /* Set a default text color */
 
+
 }
 
 .fixed-bg {
@@ -92,6 +93,9 @@ a:hover {
 
 .info {
     flex: 1;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 30px;
 }
 
 h2 {
@@ -115,7 +119,6 @@ h2 {
     margin-top: 100%;
 
 }
-
   
 
 /*projects*/
@@ -238,17 +241,21 @@ h2 {
     color: #333;
     margin-top: 10px;
 }
-.main_me {
+.image-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    justify-content: space-between;
 
-.main_me img {
-    max-width: 30%; /* Adjust the width as needed */
+  }
+  
+  .image-container img {
+    width: 30%;
+    height: 20%;
+    object-fit: cover;
     border-radius: 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+    border-color: #333;
+
+
+  }
 
 
 /*icons and footer*/
