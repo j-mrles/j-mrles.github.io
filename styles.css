@@ -30,6 +30,9 @@ body {
     display: flex;
     background-size: cover;
 }
+a{
+    text-decoration: none !important;
+}
 
 /* Link Hover Style */
 a:hover {
