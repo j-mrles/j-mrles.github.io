@@ -77,6 +77,7 @@ a:hover {
     max-width: 90%;
     height: auto;
     padding-left: 30px;
+    border-radius: 5%;
 }
 
 .info {
@@ -228,43 +229,10 @@ a:hover {
     border-radius: 10%;
     border-color: #333;
 }
-
-
-/* Social Media Icons and Footer Styles */
-.fa:hover {
-    opacity: 0.7;
+#gallery{
+   padding: 20px;
 }
 
-.fa-facebook {
-    padding: 10px;
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    padding: 10px;
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-    padding: 10px;
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    padding: 10px;
-    background: #125688;
-    color: white;
-}
-
-.fa-snapchat-ghost {
-    padding: 10px;
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 
 
@@ -274,11 +242,6 @@ a:hover {
 @media screen and (max-width: 1270px) {
     /* Apply styles for screens with a width of 768 pixels or less */
     .image-info-container {
- 
-
-
-
-
         display: flex;
         flex-direction: column;
         /* grid-template-columns: 1fr 4fr; */
@@ -290,7 +253,9 @@ a:hover {
         padding: 0;
         margin: 0 0 0 14%;
         max-width: 72%;
+        border-radius: 5%;
         /* transform: translate(16%,0); */
+        
         
     }
 }
