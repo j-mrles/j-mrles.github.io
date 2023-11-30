@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Javier Morales -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Halloween Store</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <style>
+    form {
+      text-align: left;
+      padding-right: 170px;
+      padding-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      text-align: right;
+      margin-bottom: .5em;
+    }
+
+    input[type="text"] {
+      width: 300px;
+    }
+
+    .form-button {
+      background-color: orange;
+      color: #000;
+      border: 3px solid #000;
+      padding: 5px 10px; 
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../images/pumpkin.gif" alt="Pumpkin" width="85">
+    <h2>The Halloween Store</h2>
+    <h3>For the little Goblin in all of us!</h3>
+  </header>
+  <nav id="main_nav">
+    <ul>
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="../products/index.html">Product List</a>
+      </li>
+      <li>
+        <a href="../personal/index.html">Personal</a>
+      </li>
+      <li>
+        <a href="../decorating/index.html">Decorating Ideas</a>
+        <ul>
+          <li>
+            <a href="../decorating/outdoor.html">Outdoor</a>
+          </li>
+          <li>
+            <a href="../decorating/indoor.html">Indoor</a>
+          </li>
+          <li>
+            <a href="../decorating/table.html">Table</a>
+          </li>
+          <li>
+            <a href="../decorating/treats.html">Treats</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="../email/index.html" class="current">Join Email</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <aside>
+      <ul>
+        <li>
+          <a href="../products/props.html">Props</a>
+        </li>
+        <li>
+          <a href="../products/costumes.html">Costumes</a>
+        </li>
+        <li>
+          <a href="../products/special.html">Special FX</a>
+        </li>
+        <li>
+          <a href="../products/masks.html">Masks</a>
+        </li>
+      </ul>
+    </aside>
+    <section>
+      <h1>Please enter the following information:</h1>
+      <form action="../email/subscribe.html" method="get">
+        <label for="first_name">First name: 
+          <input type="text" id="first_name" name="first_name" required autofocus>
+        </label>
+        <label for="last_name">Last name: 
+          <input type="text" id="last_name" name="last_name" required>
+        </label>
+        <label for="email">Email: 
+          <input type="text" id="email" name="email" required>
+        </label>
+        <label for="zip_code">Zip Code: 
+          <input type="text" id="zip_code" name="zip_code" placeholder="Enter your ZIP code" required>
+        </label>
+        <input type="submit" value="Subscribe" class="form-button">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <!-- Javier Morales -->
+    <p>© 2023 Javier Morales</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="../styles/main.css">
+	<style>
+		caption {
+			text-align:center;
+			font-size: 150%;
+			font-weight: bold;
+			margin: .5em 0;
+		}
+		thead th {
+			color: gray;
+			font-weight:bold;
+			vertical-align: top;
+			padding-bottom: .5em;
+		}
+		td {
+			padding-bottom: 1em;
+		} 
+		
+		th:first-child {
+			text-align: left;
+			padding-right: 40px;
+			vertical-align:top;
+		}
+		thead th:last-child{
+			text-align:right;
+		}
+		
+		td:last-child {
+			background-color: #F5DEB3;
+			text-align:right;
+		}
+		thead th:nth-child(2){
+			text-align: left;
+		}
+		td:nth-last-child(2){
+			padding-right: 40px;
+		} 
+		
+	</style>
+</head>
+
+<body>
+
+  <header>
+  	<img src="../images/pumpkin.gif" alt="Pumpkin">
+    <h2>The Halloween Store</h2>
+    <h3>For the little Goblin in all of us!</h3>
+  </header>
+  <nav id="main_nav">
+	<ul>
+		<li><a href="../index.html" >Home</a></li>
+		<li><a href="index.html" class="current">Product List</a></li>
+		<li><a href="../personal/index.html">Personal</a></li>
+		<li><a href="../decorating/index.html">Decorating Ideas</a>
+			<ul>
+				<li><a href="../decorating/outdoor.html">Outdoor</a></li>
+				<li><a href="../decorating/indoor.html">Indoor</a></li>
+				<li><a href="../decorating/table.html">Table</a></li>
+				<li><a href="../decorating/treats.html">Treats</a></li>
+			</ul>
+		</li>
+		<li><a href="../email/index.html">Join Email</a></li>
+	</ul>
+  </nav>
+  <main>
+	<aside>
+		<ul>
+			<li><a href="props.html">Props</a></li>
+			<li><a href="costumes.html">Costumes</a></li>
+			<li><a href="special.html">Special Effects</a></li>
+			<li><a href="masks.html">Masks</a></li>
+		</ul>
+	</aside>
+	 <section>
+		<table>
+			 <caption>Product List</caption>
+			<thead>
+				<tr>
+					<th>Category</th>
+					<th>Description</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th rowspan="5"><a href="props.html">Props</a></th>
+					<td>20" Deranged Cat</td>
+					<td>$39.99</td>
+				</tr>
+				<tr>
+					<td>Flying Bats</td>
+					<td >$14.99</td>
+				</tr>
+				<tr>
+					<td>16" Ugly Rat</td>
+					<td >$14.99</td>
+				</tr>
+				<tr>
+					<td>20" Uglier Rat</td>
+					<td >$19.99</td>
+				</tr>
+				<tr>
+					<td>Plastic Skeleton</td>
+					<td >$12.50</td>
+				</tr>
+				<tr>
+					<th rowspan="3"><a href="#">Costumes</a></th>
+					<td>Austin Powers</td>
+					<td >$79.50</td>
+				</tr>
+				<tr>
+					<td>Frankenstein</td>
+					<td >$79.99</td>
+				</tr>
+				<tr>
+					<td>Martians</td>
+					<td >$69.99</td>
+				</tr>
+				<tr>
+					<th rowspan="2"><a href="special.html">Special Effects</a></th>
+					<td>Fog Machine</td>
+					<td >$34.99</td>
+				</tr>
+				<tr>
+					<td>Mini Strobe Light</td>
+					<td >$14.99</td>
+				</tr>
+				<tr>
+					<th rowspan="2"><a href="#">Masks</a></th>
+					<td>Freddy</td>
+					<td >$44.50</td>
+				</tr>
+				<tr>
+					<td>Darth Vader</td>
+					<td  >$124.50</td>
+				</tr>
+			</tbody>
+		 </table>				
+	</section>
+  </main>
+
+  <footer>
+	<p>&copy; 2023 Marni Ferner</p>
+  </footer>
+</body>
+</html>
