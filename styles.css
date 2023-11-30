@@ -30,7 +30,9 @@ body {
     display: flex;
     background-size: cover;
 }
-a{
+
+/* Link Styles */
+a {
     text-decoration: none !important;
 }
 
@@ -58,7 +60,8 @@ a:hover {
     margin-right: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-/*mMore About Me*/
+
+/* More About Me Section Styles */
 .bio {
     display: flex;
     justify-content: space-between;
@@ -69,12 +72,8 @@ a:hover {
 
 .image-info-container {
     display: grid;
-    grid-template-columns: 1fr  1fr ;
-    /* align-items: center; */
+    grid-template-columns: 1fr 1fr;
 }
-
-
-
 
 .moreme-image {
     max-width: 90%;
@@ -123,8 +122,9 @@ a:hover {
     margin: 0;
     text-align: center;
 }
-/*Contact Section*/
-#contact{
+
+/* Contact Section Styles */
+#contact {
     padding-left: 40px;
 }
 
@@ -209,8 +209,6 @@ a:hover {
 .reference p {
     font-size: 18px;
     color: #555;
-
-
 }
 
 .reference blockquote {
@@ -232,36 +230,36 @@ a:hover {
     border-radius: 10%;
     border-color: #333;
 }
-#gallery{
-   padding: 20px;
+
+/* Gallery Section Styles */
+#gallery {
+    padding: 20px;
 }
 
+/* Ensure all images within the project-row class are responsive */
+.project-row img {
+    max-width: 100%;
+    height: auto;
+}
 
+/* Optionally, you can add styling to the card-container for spacing and alignment */
+.card-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
 
-
-/* This is outside of the media query and applies to all screen sizes */
-/* You can define styles for the bio section here */
-/* Media query for screens with a maximum width of 768px */
+/* Media query for screens with a maximum width of 1270px */
 @media screen and (max-width: 1270px) {
-    /* Apply styles for screens with a width of 768 pixels or less */
+    /* Apply styles for screens with a width of 1270 pixels or less */
     .image-info-container {
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: 1fr 4fr; */
-        /* align-items: center; */
     }
-    .moreme-image{
-        /* width: 0%; */
-        /* border: solid blue; */
+
+    .moreme-image {
         padding: 0;
         margin: 0 0 0 14%;
         max-width: 72%;
         border-radius: 5%;
-        /* transform: translate(16%,0); */
-        
-        
     }
 }
-
-
-
