@@ -1,0 +1,328 @@
+/* Javier Morales */
+
+/* Reset styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+#main-image {
+    overflow: hidden;
+}
+
+#main-image img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: none; /* Hide all images by default */
+}
+
+#main-image img.active {
+    display: block; /* Display the active image */
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Adjust the gap between items */
+    margin-top: 20px;
+}
+
+.service-item {
+    border: 1px solid #ddd; /* Add a border for separation */
+    padding: 15px;
+    text-align: left;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to the images */
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+.service-item p {
+    margin-top: 10px;
+}
+
+/* Add additional styling as needed */
+
+.service-item.hovered {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example: Add a box shadow on hover */
+    transform: scale(1.05); /* Example: Scale up on hover */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+}
+
+
+/* Header styles */
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    color: #076426;
+    text-align: center;
+    padding: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.header-content {
+    text-align: center;
+    padding: 2em; 
+}
+
+header h1 {
+    font-size: 2.25em;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5); 
+}
+
+header p {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #6a994e;
+    color: #fff;
+    text-align: center;
+    padding: 0.3125em; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 1.875em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav li.current a {
+    text-decoration: underline;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Logo image */
+.logo img {
+    width: 8em; 
+    height: auto;
+}
+
+/* Main content styles */
+main {
+    max-width: 50em; 
+    margin: 1.25em auto;
+    background-color: #fff;
+    padding: 1.25em;
+    border-radius: 1.25em; 
+    box-shadow: 0 0 1.25em rgba(0, 0, 0, 0.2); 
+}
+
+/* Section styles */
+section {
+    margin-bottom: 1.25em; 
+    padding: 1.25em; 
+    border: 0.0625em solid #ddd; 
+    border-radius: 1.25em;
+}
+
+h2 {
+    color: #6a994e;
+}
+
+select {
+    display:block;
+}
+
+select:hover {
+    display: block; /* or any other appropriate value like 'inline' or 'inline-block' */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #6a994e;
+    color: #fff;
+    text-align: center;
+    padding: 0.9375em 0;
+}
+
+/* List styles */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styles */
+footer ul li {
+    display: inline;
+    margin-right: 0.625em; 
+}
+
+/* Link styles */
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Link hover styles */
+footer ul li a:hover {
+    color: #ccc;
+}
+
+/* Copyright styles */
+footer p {
+    margin-top: 0.625em; 
+}
+
+/* Style for the Our Work section */
+.our-work {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+.our-work p{
+    text-align: left;
+}
+
+.project-summary img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-summary h3 {
+    margin-top: 10px;
+}
+
+/* Style for the portfolio link */
+.our-work a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.our-work a:hover {
+    text-decoration: underline;
+}
+/* Style for the Customer References section */
+.customer-references {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Style for individual references */
+.reference {
+    margin-bottom: 20px;
+}
+
+.rating {
+    font-size: 24px; /* Adjust the font size for stars or smiley faces */
+    margin-bottom: 10px;
+}
+
+.customer-name {
+    font-style: italic;
+    color: #777;
+}
+/* Style for the Contact Us section */
+.contact-us {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.contact-us button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background-color: #0056b3;
+}
+/* Style for the Landscaping Estimate Calculator section */
+.estimate-calculator {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.estimate-calculator label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.estimate-calculator input,
+.estimate-calculator select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.estimate-calculator button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.estimate-calculator button:hover {
+    background-color: #0056b3;
+}
+
+#landscaping-estimate-result {
+    margin-top: 15px;
+    font-weight: bold;
+}
