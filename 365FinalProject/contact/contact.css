@@ -99,11 +99,15 @@
 .pillar {
     text-align: center;
     width: 30%;
+    max-width: 100%; /* Ensure it doesn't exceed the parent's width */
+    overflow: hidden; /* or overflow: auto; */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .pillar h3 {
     margin-top: 10px;
