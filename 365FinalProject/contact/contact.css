@@ -25,12 +25,6 @@
     background-color: #717171;
 }
 
-.pillar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 /* Modern contact form styling */
 .contact-form {
     max-width: 600px;
@@ -43,11 +37,14 @@
 
 .contact-form h2 {
     color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .contact-form p {
     color: #666;
-    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .contact-form form {
@@ -93,22 +90,45 @@
 .pillar-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .pillar {
     text-align: center;
-    width: 30%;
-    max-width: 100%; /* Ensure it doesn't exceed the parent's width */
-    overflow: hidden; /* or overflow: auto; */
+    width: calc(30% - 20px);
+    margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    /* Center the image within the pillar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
+.pillar img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
 
 .pillar h3 {
     margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.pillar p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Hover effect on pillars */
+.pillar:hover {
+    transform: scale(1.05);
 }
