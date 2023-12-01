@@ -30,6 +30,7 @@ body {
 .services {
     text-align: center;
     padding: 20px;
+
 }
 
 .service-grid {
@@ -362,4 +363,10 @@ footer p {
 #landscaping-estimate-result {
     margin-top: 15px;
     font-weight: bold;
+}
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .service-grid {
+        grid-template-columns: 1fr; /* Display one column on smaller screens */
+    }
 }
