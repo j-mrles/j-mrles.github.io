@@ -47,3 +47,18 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('landscaping-estimate-result').innerHTML = `Estimated Cost: $${totalCost.toFixed(2)}`;
     }
 
+// Add this to a new JavaScript file (e.g., script.js) and link it in your HTML
+
+document.addEventListener('DOMContentLoaded', function () {
+    animateTable();
+  });
+  
+  function animateTable() {
+    const tableRows = document.querySelectorAll('.comparison table tbody tr');
+  
+    tableRows.forEach((row, index) => {
+      row.classList.add('fadeIn');
+      row.style.animationDelay = `${index * 0.2}s`;
+    });
+  }
+  

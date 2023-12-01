@@ -34,40 +34,26 @@
     </nav>
 
     <main>
-        <section class="estimate-options">
-            <h2>Explore Different Estimates</h2>
-            <p>Choose the type of landscaping estimate you're interested in:</p>
-
-            <div class="estimate-types">
-                <button onclick="showCalculator('garden')">Garden Design Estimate</button>
-                <button onclick="showCalculator('maintenance')">Lawn Maintenance Estimate</button>
-                <button onclick="showCalculator('trimming')">Tree Trimming Estimate</button>
-            </div>
-
-            <div id="estimate-calculator">
-                <!-- Calculator content will go here -->
-                <label for="area">Total Area (in square feet):</label>
-                <input type="number" id="area" placeholder="Enter area" required>
-
-                <label for="plants">Number of Plants:</label>
-                <input type="number" id="plants" placeholder="Enter quantity" required>
-
-                <label for="services">Select Services:</label>
-                <select id="services" multiple>
-                    <option value="garden-design">Garden Design</option>
-                    <option value="lawn-maintenance">Lawn Maintenance</option>
-                    <option value="tree-trimming">Tree Trimming</option>
-                </select>
-
-                <button onclick="calculateLandscapingEstimate()">Get Estimate</button>
-
-                <div id="landscaping-estimate-result"></div>
-            </div>
-
-            <div id="price-comparison-graph">
-                <!-- Graph content will go here -->
-                <p>Price Comparison Graph (Placeholder)</p>
-            </div>
+        <section class="estimate-calculator">
+            <h2>Want An Estimate?</h2>
+            <p><br>Enter details about your landscaping needs to get an estimate:</p>
+        
+            <label for="area"><br>Total Area (in square feet):</label>
+            <input type="number" id="area" placeholder="Enter area" required>
+        
+            <label for="plants">Number of Plants:</label>
+            <input type="number" id="plants" placeholder="Enter quantity" required>
+        
+            <label for="services">Select Services:</label>
+            <select id="services" multiple>
+                <option value="garden-design">Garden Design</option>
+                <option value="lawn-maintenance">Lawn Maintenance</option>
+                <option value="tree-trimming">Tree Trimming</option>
+            </select>
+        
+            <button onclick="calculateLandscapingEstimate()">Get Estimate</button>
+        
+            <div id="landscaping-estimate-result"></div>
         </section>
 
         <section class="customer-references">

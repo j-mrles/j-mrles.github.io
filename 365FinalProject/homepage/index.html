@@ -21,6 +21,8 @@
         </div>
     </header>
 
+
+
     <nav>
         <ul>
             <li class="current"><a href="../homepage/index.html">Home</a></li>
@@ -75,27 +77,43 @@
         
             <p> a closer look at our projects,view our portfolio <a href="portfolio.html" style="text-decoration: underline;">here</a>.</p>
         </section>
-        <section class="estimate-calculator">
-            <h2>Want an estimate?</h2>
-            <p><br>Enter details about your landscaping needs to get an estimate:</p>
+
+
+        <section class="comparison">
+            <h2>Compare Our Services</h2>
         
-            <label for="area"><br>Total Area (in square feet):</label>
-            <input type="number" id="area" placeholder="Enter area" required>
-        
-            <label for="plants">Number of Plants:</label>
-            <input type="number" id="plants" placeholder="Enter quantity" required>
-        
-            <label for="services">Select Services:</label>
-            <select id="services" multiple>
-                <option value="garden-design">Garden Design</option>
-                <option value="lawn-maintenance">Lawn Maintenance</option>
-                <option value="tree-trimming">Tree Trimming</option>
-            </select>
-        
-            <button onclick="calculateLandscapingEstimate()">Get Estimate</button>
-        
-            <div id="landscaping-estimate-result"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>New Day Landscaping</th>
+                        <th>Competitor A</th>
+                        <th>Competitor B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Quality</td>
+                        <td>High quality, sustainable designs</td>
+                        <td>Standard quality</td>
+                        <td>Varies</td>
+                    </tr>
+                    <tr>
+                        <td>Prices</td>
+                        <td>Competitive and transparent pricing</td>
+                        <td>May have hidden fees</td>
+                        <td>Higher prices</td>
+                    </tr>
+                    <tr>
+                        <td>Climate Friendliness</td>
+                        <td>Eco-friendly practices</td>
+                        <td>Varies</td>
+                        <td>Not specified</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+        
         <section class="customer-references">
             <h2>Customer Reviews</h2>
         
