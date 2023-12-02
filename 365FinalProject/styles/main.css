@@ -85,6 +85,16 @@ header {
     max-width: 100%;
 }
 
+nav a {
+    text-decoration: none; /* Example: Remove underline for links */
+    padding: 8px; /* Example: Add padding to links for smaller screens */
+    border-radius: 5px; /* Example: Add rounded corners to links */
+}
+
+nav a:hover {
+    background-color: green; /* Example: Change background color on hover for links */
+}
+
 /* Add this to your existing CSS file */
 
   
