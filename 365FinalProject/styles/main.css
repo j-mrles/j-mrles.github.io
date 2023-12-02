@@ -87,25 +87,6 @@ header {
 
 /* Add this to your existing CSS file */
 
-.comparison {
-    margin: 20px 0;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    padding: 12px;
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
   
   /* Animation styles */
   @keyframes fadeIn {
@@ -364,9 +345,46 @@ footer p {
     margin-top: 15px;
     font-weight: bold;
 }
+/* Redesigned Comparison Table Styles */
+.comparison {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #6a994e;
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Alternating row colors for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 600px) {
+ 
+
     .service-grid {
         grid-template-columns: 1fr; /* Display one column on smaller screens */
+    }
+
+    .comparison{
+        overflow-x: scroll;
     }
 }
