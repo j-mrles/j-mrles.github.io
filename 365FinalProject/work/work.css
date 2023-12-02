@@ -74,4 +74,31 @@ footer {
     .project-item {
         margin: 10px;
     }
+
+ nav {
+        padding: 10px; /* Example: Add padding for smaller screens */
+    }
+
+    nav ul {
+        list-style-type: none; /* Example: Remove list item bullets for smaller screens */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Example: Stack items vertically */
+        text-align: center; /* Example: Center text for smaller screens */
+    }
+
+    nav li {
+        margin-bottom: 10px; /* Example: Add margin between list items for smaller screens */
+    }
+
+    nav a {
+        text-decoration: none; /* Example: Remove underline for links */
+        padding: 8px; /* Example: Add padding to links for smaller screens */
+        border-radius: 5px; /* Example: Add rounded corners to links */
+    }
+
+    nav a:hover {
+        background-color: #777777; /* Example: Change background color on hover for links */
+    }
 }
