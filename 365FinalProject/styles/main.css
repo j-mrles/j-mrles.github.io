@@ -397,4 +397,21 @@ tbody tr:nth-child(even) {
     .comparison{
         overflow-x: scroll;
     }
+
+    nav {
+        padding: 10px; /* Example: Add padding for smaller screens */
+    }
+
+    nav ul {
+        list-style-type: none; /* Example: Remove list item bullets for smaller screens */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; /* Example: Stack items vertically */
+        text-align: center; /* Example: Center text for smaller screens */
+    }
+
+    nav li {
+        margin-bottom: 10px; /* Example: Add margin between list items for smaller screens */
+    }
 }
