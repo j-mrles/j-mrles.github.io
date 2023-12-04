@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentImageIndex = 0;
     const images = document.querySelectorAll("#main-image img");
+    const serviceItems = document.querySelectorAll(".service-item");
+    const tableRows = document.querySelectorAll('.comparison table tbody tr');
 
     function showImage(index) {
         images.forEach(img => img.classList.remove("active"));
@@ -12,15 +14,24 @@ document.addEventListener("DOMContentLoaded", function () {
         showImage(currentImageIndex);
     }
 
+    function animateTable() {
+        tableRows.forEach((row, index) => {
+            row.classList.add('fadeIn');
+            row.style.animationDelay = `${index * 0.2}s`;
+        });
+    }
+
+    function printPage() {
+        window.print();
+    }
+
     // Set an interval to change images every 3 seconds (adjust as needed)
     setInterval(nextImage, 3000);
 
     // Show the first image initially
     showImage(currentImageIndex);
-});
-document.addEventListener("DOMContentLoaded", function () {
-    const serviceItems = document.querySelectorAll(".service-item");
 
+    // Event listeners for service items
     serviceItems.forEach(item => {
         item.addEventListener("mouseenter", function () {
             this.classList.add("hovered");
@@ -30,24 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
             this.classList.remove("hovered");
         });
     });
-});
 
-
-// Add this to a new JavaScript file (e.g., script.js) and link it in your HTML
-
-document.addEventListener('DOMContentLoaded', function () {
+    // Call the table animation function
     animateTable();
-  });
-  
-  function animateTable() {
-    const tableRows = document.querySelectorAll('.comparison table tbody tr');
-  
-    tableRows.forEach((row, index) => {
-      row.classList.add('fadeIn');
-      row.style.animationDelay = `${index * 0.2}s`;
-    });
-  }
-  
-  function printPage() {
-    window.print();
-}
+});

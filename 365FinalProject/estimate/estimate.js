@@ -33,7 +33,12 @@ function calculateLandscapingEstimate() {
     const baseCost = 50;
     const areaCost = area * 0.1;
     const plantsCost = plants * 5;
-    const servicesCost = services.length * 20;
+    
+    let servicesCost = 0;
+    
+    for (const service of services) {
+        servicesCost += 20;
+    }
 
     const totalCost = baseCost + areaCost + plantsCost + servicesCost;
 
