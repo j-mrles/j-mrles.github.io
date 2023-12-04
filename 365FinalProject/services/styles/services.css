@@ -1,0 +1,49 @@
+/* estimate.css */
+
+/* Styles for the Services section using grid layout */
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Adjust the gap between items */
+    margin-top: 20px;
+}
+
+.service-item {
+    border: 1px solid #ddd; /* Add a border for separation */
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to the images */
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+.service-item p {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .service-grid {
+        display: flex;
+        flex-direction: column; /* Display items in a column for smaller screens */
+    }
+
+    .service-item {
+        margin-bottom: 20px; /* Add margin between items for smaller screens */
+    }
+}
+/* Add any additional styling for the services section as needed */

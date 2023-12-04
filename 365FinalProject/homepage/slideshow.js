@@ -32,20 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-    function calculateLandscapingEstimate() {
-        const area = parseFloat(document.getElementById('area').value);
-        const plants = parseInt(document.getElementById('plants').value);
-        const services = document.getElementById('services').selectedOptions;
-
-        const baseCost = 50;
-        const areaCost = area * 0.1;
-        const plantsCost = plants * 5;
-        const servicesCost = services.length * 20;
-
-        const totalCost = baseCost + areaCost + plantsCost + servicesCost;
-
-        document.getElementById('landscaping-estimate-result').innerHTML = `Estimated Cost: $${totalCost.toFixed(2)}`;
-    }
 
 // Add this to a new JavaScript file (e.g., script.js) and link it in your HTML
 
@@ -62,3 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   
+  function printPage() {
+    window.print();
+}

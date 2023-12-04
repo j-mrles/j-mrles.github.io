@@ -385,6 +385,31 @@ th {
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+/* Print Styles */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+    /* Add additional print-specific styles as needed */
+}
+
+/* Print Button Styles */
+.print-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #0056b3;
+}
+
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {

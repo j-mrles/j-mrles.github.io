@@ -1,16 +1,14 @@
-/* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Style the navigation dots */
 .dot {
     height: 15px;
     width: 15px;
@@ -25,7 +23,6 @@
     background-color: #717171;
 }
 
-/* Modern contact form styling */
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -86,7 +83,6 @@
     background-color: #45a049;
 }
 
-/* Better styling for pillars */
 .pillar-container {
     display: flex;
     justify-content: space-around;
@@ -103,8 +99,6 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-
-    /* Center the image within the pillar */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +122,6 @@
     line-height: 1.5;
 }
 
-/* Hover effect on pillars */
 .pillar:hover {
     transform: scale(1.05);
 }
