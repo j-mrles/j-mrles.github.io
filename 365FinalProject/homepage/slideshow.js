@@ -25,13 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
         window.print();
     }
 
-    // Set an interval to change images every 3 seconds (adjust as needed)
     setInterval(nextImage, 3000);
 
-    // Show the first image initially
     showImage(currentImageIndex);
 
-    // Event listeners for service items
     serviceItems.forEach(item => {
         item.addEventListener("mouseenter", function () {
             this.classList.add("hovered");
@@ -42,6 +39,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Call the table animation function
     animateTable();
 });

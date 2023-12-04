@@ -11,20 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Get the "Get Estimate" button element
     const estimateButton = document.querySelector('button');
 
-    // Add a click event listener to the button
     estimateButton.addEventListener('click', function () {
-        // Call the function to calculate landscaping estimate
         calculateLandscapingEstimate();
 
-        // Play the money sound
         playMoneySound();
     });
 });
 
-// Function to calculate landscaping estimate
 function calculateLandscapingEstimate() {
     const area = parseFloat(document.getElementById('area').value);
     const plants = parseInt(document.getElementById('plants').value);
@@ -45,11 +40,8 @@ function calculateLandscapingEstimate() {
     document.getElementById('landscaping-estimate-result').innerHTML = `Estimated Cost: $${totalCost.toFixed(2)}`;
 }
 
-// Function to play the money sound
 function playMoneySound() {
-    // You can replace 'money.mp3' with the actual path to your money sound file
     const moneySound = new Audio('../estimate/money.mp3');
 
-    // Play the money sound
     moneySound.play();
 }

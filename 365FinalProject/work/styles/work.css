@@ -52,7 +52,6 @@ footer {
     text-align: center;
 }
 
-/* Animation styles */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -68,7 +67,6 @@ footer {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Media query for responsiveness */
 @media screen and (max-width: 768px) {
     .project-item {
         margin: 10px;

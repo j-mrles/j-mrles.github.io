@@ -19,11 +19,10 @@ function showSlides() {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     
-    slides[slideIndex - 1].style.display = "block"; // Adjusted index here
-    dots[slideIndex - 1].className += " active"; // Adjusted index here
+    slides[slideIndex - 1].style.display = "block"; 
+    dots[slideIndex - 1].className += " active"; 
     
-    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    setTimeout(showSlides, 2000); 
 }
 
-// Call the function to start the slideshow
 showSlides();
