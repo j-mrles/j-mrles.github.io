@@ -1,166 +1,206 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Web Portfolio</title>
-    <!-- CSS link -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Template style -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- Social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width: 100%;" id="home">
-        <!-- Navbar (sit on top) -->
-        <div class="w3-top">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="../index.html" class="w3-bar-item w3-button">Javier Morales</a>
-                <!-- Float links to the right. Hide them on small screens -->
-                <div class="w3-right w3-hide-small">
-                    <a href="pages/projects.html" class="w3-bar-item w3-button">Projects</a>
-                    <a href="pages/resume.html" class="w3-bar-item w3-button">Resume</a>
-                    <a href="pages/aboutme.html" class="w3-bar-item w3-button">About Me</a>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Javier Morales</a>
                 </div>
-            </div>
-        </div>
-        <div class="fixed-bg"></div>
-        <div class="w3-display-left w3-text-white" style="padding: 48px">
-            <h1><a href="/pages/aboutme.html">Hello! I'm Javier Morales</h1>
-            <h3><a href="/pages/aboutme.html">Learning. Inspiring. Empowering.</h3>
-            <p><a href="/pages/aboutme.html">Computer Science Student at The University Of North Carolina at Wilmington</a></p>
-        </div>
-    </header>
-    <section class="bio" id="more">
-        <div class="image-info-container">
-            
-            <div>
-            <img class="moreme-image" src="images/proJavier.png" alt="Javier Morales">
-            </div>
-            <div class="info">
-                <h2><a href="/pages/aboutme.html">More about me!</a></h2>
-                <h7>I am a dedicated, service-oriented individual who thrives on giving my all to my community and personal development. My career goal in full-stack development, with a major in computer science (software engineering concentration) and a cybersecurity minor, reflects my commitment to making a lasting impact through technology. With my innate leadership qualities and a passion for growth, I consider myself a standout figure in any endeavor I undertake. In addition to my full-stack development aspirations, I am a co-founder of "Futuros en STEM" and co-president of the Hispanic Latinx Student Union, actively advancing diversity and inclusion in STEM fields. As a recipient of the LSAMP scholarship and an Undergraduate Large Language Model and Natural Language Researcher, I am driving innovation at the intersection of language and technology. Hailing from Durham, North Carolina, my multifaceted contributions underscore my commitment to excellence, leadership, and pushing the boundaries of knowledge.</h7>
-            </div>
-        </div>
-    </section>
-    <div class="image-container" id="gallery">
-        <img src="images/fes_team.jpeg" alt="Image 1">
-        <img src="images/lsamp.jpeg" alt="Image 2">
-        <img src="images/res_pres.jpg" alt="Image 3">
-      </div>
-      
-    <!-- Page content -->
 
-    <section class="strengths">
-        <h2>My 5 Biggest Strengths</h2>
-        <ul>
-            <li>
-                <h3>1. Problem Solving</h3>
-                <p>I have a strong ability to analyze complex problems and find effective solutions.</p>
-            </li>
-            <li>
-                <h3>2. Communication</h3>
-                <p>I excel in both written and verbal communication, making me a great team player and presenter.</p>
-            </li>
-            <li>
-                <h3>3. Coding Skills</h3>
-                <p>I am proficient in multiple programming languages, including Java, Python, and C++.</p>
-            </li>
-            <li>
-                <h3>4. Leadership</h3>
-                <p>I have experience in leading teams and projects, demonstrating strong leadership skills.</p>
-            </li>
-            <li>
-                <h3>5. Adaptability</h3>
-                <p>I quickly adapt to new technologies and learn new skills as needed for the task at hand.</p>
-            </li>
-        </ul>
-    </section>
-    
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-    <!-- Project Section -->
-    <div class="projects">
-        <h2><a href="/pages/aboutme.html">My Projects</a></h2>
-        <h4><a href="/pages/aboutme.html">Click on the project to learn more!</a></h4>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-        <div class="project-row">
-            <div class="card-container">
-                <img src="images/research.png" alt="Project Image">
-                <div class="card-info">
-                    <h6><strong>Research: Investigation Of Large Language Models For Teaching Software Programming To Non-Programmers</strong></h6>
-                    <span><a href="/images/research.png">More details here.</a></span>
-                    <div class="social-icon">
-                        <p>
-                            I investigated the efficacy of various large language models for teaching programming to non-programmers, developed large language training and tutorials for teaching software programming to non-programmers, and identified the strengths and weaknesses of large language models as a teaching tool and how they can be used to improve traditional teaching methods.
-                        </p>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Javier</span><br> Software Engineer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <!-- <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="/assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div> -->
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/Javier.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Javier</h2>
+                        <p class="about__text">As founder and president of "Futuros en STEM" and president of the Hispanic Latinx Student Union, I champion diversity, excellence and pushing the boundaries of knowledge.
+
+                            With a simple goal to create positive change through technology and innovation, the first step being a role in software engineering.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Currently Digital Humanities SWE Assistant @ UNC Wilmington <br> Learning, Natural Language Processing, Software Development</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="project-row">
-            <div class="card-container">
-                <img src="images/fes.png" alt="Project Image">
-                <div class="card-info">
-                    <h6><strong>Futuros En STEM</strong></h6>
-                    <span><a href="https://www.futurosenstem.com">www.futurosenstem.com</a></span>
-                    <div class = "social-icon">
-                        <p>
-                            I founded Futuros en STEM because I believe that everyone deserves access to a quality STEM education, regardless of their background or circumstances. I saw firsthand the inequality in STEM education when I was a student, and I knew that I wanted to do something to change that.
-                        </p>
-                    </div>
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="project-row">
-            <div class="card-container">
-                <img src="images/landscape.png" alt="Project Image">
-                <div class="card-info">
-                    <h6><strong>New Day Landscaping</strong></h6>
-                    <span><a href="./NewDayLandscape/homepage/index.html" target="_self">Click to view.</a></span>
-                    <div class="social-icon">
-                        <p>This endeavor was a valuable learning experience, allowing me to delve into web design, content creation, and digital marketing. The site showcases our work beautifully and provides useful insights into landscaping trends. Grateful for the opportunity to contribute to the company's online presence and looking forward to continued growth! </p>
-                    </div>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Reach out!" class="contact__button button">
+                    </form>
                 </div>
-            </div>
-        </div>
-    </div>
-        <!-- References Section -->
-        <section class="references">
-            <h2>References</h2>
-   
-            <div class="reference">
-                <h3>Sergio Madera-Garcia</h3>
-                <p><em>managed Javier directly at Centro Hispano</em></p>
-                <blockquote>
-                    "Javier is a young professional who is knowledgeable in the tech field, and a progressive leader that is not afraid to find comfort within the uncomfortable."
-                </blockquote>
-            </div>
-            <div class="reference">
-                <h3>David Boyd</h3>
-                <p><em>worked with Javier at Libery Healthcare</em></p>
-                <blockquote>
-                    "Javier is a driven individual, he is determined to find a resolution to any issue that comes his way."
-                </blockquote>
-            </div>
-            
-        </section>
-    
+            </section>
+        </main>
 
-    <!-- Contact Section -->
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+  
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Javier Morales. All rights reserved</p>
+        </footer>
 
 
-    <!-- Footer -->
-    <footer style="background-color: #000; padding: 16px; text-align: center;">
-        <!-- Add font awesome icons -->
-        <a href="https://www.facebook.com/profile.php?id=100012454245393" style="text-decoration: none; color: white; margin: 0 8px;" class="fa fa-facebook"></a>
-        <a href="./WebDEV1/index.html" style="text-decoration: none; color: white; margin: 0 8px;" class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com/in/jmrles" style="text-decoration: none; color: white; margin: 0 8px;" class="fa fa-linkedin"></a>
-        <a href="https://instagram.com/j.mrles?igshid=MmIzYWVlNDQ5Yg==" style="text-decoration: none; color: white; margin: 0 8px;" class="fa fa-instagram"></a>
-        <a href="./NewDayLandscape/homepage/index.html" style="text-decoration: none; color: white; margin: 0 8px;" class="fa fa-snapchat-ghost"></a>
-    </footer>
-    
-</body>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
