@@ -1,0 +1,81 @@
+/*===== PROJECTS =====*/
+.projects {
+    padding: 4rem 0;
+}
+
+.section__title {
+    font-size: var(--big-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project__img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.project__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project:hover .project__overlay {
+    opacity: 1;
+}
+
+.project__title {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-2);
+}
+
+.project__description {
+    font-size: var(--smaller-font-size);
+    color: #fff;
+    text-align: center;
+}
+
+/* Slideshow Styles */
+.fade {
+    display: none;
+}
+
+.projects .projects__container {
+    position: relative;
+}
+
+.project {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}

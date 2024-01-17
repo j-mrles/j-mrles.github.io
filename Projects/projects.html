@@ -1,39 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../Projects/projects.css">
+    <link rel="script" href="../Projects/projects.js">
 
-        <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Javier Morales</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="../index.html" class="nav__logo">Javier Morales</a>
+            </div>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Timeline</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+            </div>
 
-        <title>Javier Morales</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Javier Morales</a>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== MAIN CONTENT =====-->
+    <main class="l-main">
+        <!-- Home Section (Add your content here) -->
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section__container bd-grid">
+                <h2 class="section__title">Projects</h2>
+
+                <div class="projects__container" id="slideshow-container">
+                    <!-- Project Slot 1 -->
+                    <div class="project fade">
+                        <img src="../NewDayLandscape/work/images/work1.jpeg" alt="Project 1" class="project__img">
+                        <div class="project__overlay">
+                            <h3 class="project__title">Project 1</h3>
+                            <p class="project__description">Description of Project 1.</p>
+                        </div>
+                    </div>
+            
+                    <!-- Project Slot 2 -->
+                    <div class="project fade">
+                        <img src="../NewDayLandscape/work/images/work1.jpeg" alt="Project 2" class="project__img">
+                        <div class="project__overlay">
+                            <h3 class="project__title">Project 2</h3>
+                            <p class="project__description">Description of Project 2.</p>
+                        </div>
+                    </div>
+            
+                    <!-- Add more project slots as needed -->
                 </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="./Projects/projects.html" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Resume</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Timeline</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-        <body> 
+            </div>
+        </section>
         
-        </body>
+        <!-- Resume Section (Add your content here) -->
+
+        <!-- Timeline Section (Add your content here) -->
+
+        <!-- Contact Me Section (Add your content here) -->
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="l-footer">
+        <!-- Add your footer content here -->
+    </footer>
+
+    <script src="../assets/js/main.js"></script> <!-- Assuming you have a JavaScript file -->
+</body>
+</html>
