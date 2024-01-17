@@ -70,6 +70,9 @@ img {
   height: auto;
   display: block;
 }
+.work-images{
+  height: 50px;
+}
 
 /*===== CLASS CSS ===== */
 .section-title {
