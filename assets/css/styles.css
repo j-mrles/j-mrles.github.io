@@ -361,6 +361,40 @@ img {
   transform: scale(1.1);
 }
 
+
+
+/* ===== Image Overlay =====*/
+
+.work__img {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-weight:bold; /* Set the font weight to bold for a thicker text */
+  color: black; /* Set the text color to black */
+}
+
+.work__img:hover .image-overlay {
+  opacity: 0.7; /* Adjust the opacity level for the fading effect */
+}
+
+.work__img:hover .overlay-text {
+  opacity: 1;
+}
+
+
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
