@@ -1,30 +1,40 @@
-/*===== PROJECTS =====*/
+
+
+/* Style the main content container */
+.l-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black; /* Text color */
+}
+
+/* Style the Projects section */
 .projects {
-    padding: 4rem 0;
+    padding: 50px 0;
 }
 
 .section__title {
-    font-size: var(--big-font-size);
-    color: var(--first-color);
-    margin-bottom: var(--mb-4);
-    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black; /* Title color */
 }
 
 .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 20px;
 }
 
 .project {
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .project__img {
     width: 100%;
     height: auto;
-    border-radius: 0.5rem;
+    border-radius: 10px;
 }
 
 .project__overlay {
@@ -33,49 +43,20 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgba(52, 152, 219, 0.8); /* Blue overlay color with transparency */
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease;
 }
 
-.project:hover .project__overlay {
-    opacity: 1;
-}
 
-.project__title {
-    font-size: 1.5rem;
-    color: var(--first-color);
-    margin-bottom: var(--mb-2);
-}
-
+.project__title,
 .project__description {
-    font-size: var(--smaller-font-size);
     color: #fff;
     text-align: center;
 }
 
-/* Slideshow Styles */
-.fade {
-    display: none;
-}
-
-.projects .projects__container {
-    position: relative;
-}
-
-.project {
-    animation: fade 1.5s ease-in-out infinite;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4;
-    }
-    to {
-        opacity: 1;
-    }
-}
+/* Add more styles for other sections as needed */
