@@ -19,11 +19,11 @@
     color: black; /* Title color */
 }
 
-.projects__container {
+/* .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-}
+} */
 
 .project {
     position: relative;
@@ -32,9 +32,11 @@
 }
 
 .project__img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 
 .project__overlay {
