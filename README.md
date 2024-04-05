@@ -29,9 +29,9 @@ While this is a personal portfolio, any feedback or suggestions on the website's
 
 ## Contact Information
 
-- **Email:** [YourEmail@example.com](fjm6709@uncw.edu)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/jmrles/)
-- **GitHub:** [Your GitHub Profile](https://github.com/j-mrles)
+- **Email:** (fjm6709@uncw.edu)
+- **LinkedIn:** (https://www.linkedin.com/in/jmrles/)
+- **GitHub:** (https://github.com/j-mrles)
 
 Thank you for visiting my portfolio. I look forward to connecting with you!
 
