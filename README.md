@@ -29,12 +29,8 @@ While this is a personal portfolio, any feedback or suggestions on the website's
 
 ## Contact Information
 
-- **Email:** (fjm6709@uncw.edu)
+- **Email:** (javiermduarte70@gmail.com)
 - **LinkedIn:** (https://www.linkedin.com/in/jmrles/)
 - **GitHub:** (https://github.com/j-mrles)
 
 Thank you for visiting my portfolio. I look forward to connecting with you!
-
----
-
-Feel free to adjust the content to better fit your personal style, the specifics of your portfolio, or any additional sections you might have included in your website. Remember, a README is not just a guide to your project but also an invitation to engage with your work and you as a professional.
